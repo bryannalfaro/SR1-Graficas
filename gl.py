@@ -36,6 +36,7 @@ def color(r,g,b):
 BLACK = color(0,0,0)
 WHITE = color(255,255,255)
 
+#Reference from example in class
 class Renderer(object):
     def __init__(self):
         self.default_color = color(0,0,139)
